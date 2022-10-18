@@ -1,0 +1,42 @@
+
+body {
+    background-color: rgb(199, 159, 236);
+}
+form {
+    border: 2px solid rgb(0, 162, 183);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: black;
+    font-family: verdana;
+    font-size: 100%;
+   }
+
+#imgright{
+    text-align: right;    
+  }
+
+p {
+    color: red;
+    font-family: courier;
+    font-size: 100%;
+    border: 2px solid powderblue;
+    padding: 30px;
+  }
+
+#subProduct{
+    color: black;
+    font-family: verdana;
+    font-size: 100%;
+  }
+
+#product{
+    color: rgb(0, 255, 42);
+    font-family: courier;
+    font-size: 100%;
+  }
+
+
+
