@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .title {
+    padding: 8px;
+  }
+
+  h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: #4CAF50;
+    }
+
+  .row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+
+  
+  .column img {
+    margin: 8px;
+  }
+  
