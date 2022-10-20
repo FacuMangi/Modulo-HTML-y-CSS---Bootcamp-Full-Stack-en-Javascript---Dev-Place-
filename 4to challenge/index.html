@@ -1,0 +1,164 @@
+<!<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Challenge 4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Home</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Para empresas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="precios.html">Precios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Productos/servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="partners.html">Partners</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <section id="titulo">
+            <div class="Title">
+                <h1>Mi pagina web</h1>
+                <h2>Esta es mi primer pagina web</h2>
+            </div>
+        </section>
+
+        <section id="img">
+            <div class="clearfix">
+                <img class="img2" src="img/primera.jpg" alt="Imagen de mi computadora" width="170" height="170">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum eros sit amet magna vehicula elementum. Nunc maximus quam quis neque finibus, eu facilisis urna volutpat. Curabitur sed massa auctor quam vulputate accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce vehicula rhoncus venenatis. Cras purus urna, ornare at rutrum sit amet, fringilla at ante. Sed pretium eros massa, eu molestie purus imperdiet ut. Nam vitae rhoncus neque, sit amet accumsan felis. Quisque ac neque finibus lacus elementum sollicitudin sit amet interdum sapien. Nullam ut massa consectetur, dictum urna eget, tincidunt augue. Cras eget sem vel ligula varius volutpat. In malesuada dictum ante eget viverra. Quisque at nisi et erat blandit lacinia. Mauris non mauris posuere, ullamcorper magna ac, feugiat sapien. Vestibulum et elit sit amet neque accumsan porta. Phasellus lacus tortor, ultrices sed pellentesque vel, egestas in risus.</p>
+              </div>
+        </section>
+
+        <section id="formu">
+            <h2>Ingrese sus datos</h2>
+            <div class="container">
+                <form action="action_page.php">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="fname">Nombre</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="fname" name="firstname" placeholder="Tu nombre">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="lname">Apellido</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="lname" name="lastname" placeholder="Tu apellido">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="country">Pais</label>
+                    </div>
+                    <div class="col-75">
+                      <select id="country" name="country">
+                        <option value="australia">Argentina</option>
+                        <option value="canada">Chile</option>
+                        <option value="usa">Uruguay</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="subject">Publicar</label>
+                    </div>
+                    <div class="col-75">
+                      <textarea id="subject" name="subject" placeholder="Escriba algo" style="height:200px"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                                <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Subir cambios
+                  </button>
+                  </div>
+                </form>
+              </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="clearfix">
+                <p>Mauris congue nibh eu gravida vestibulum. Quisque condimentum imperdiet elementum. Nunc ultricies ut nibh vel vehicula. Aliquam erat volutpat. Aliquam pretium facilisis urna, at fringilla urna vehicula nec. In hac habitasse platea dictumst. Etiam erat turpis, porttitor eget erat sit amet, tempor pretium nibh. Suspendisse potenti. Etiam tempor semper est at rhoncus. Morbi eu ipsum at leo condimentum efficitur. Curabitur semper quis nisl lobortis mollis. Sed hendrerit cursus lacus quis gravida. Sed laoreet molestie risus ut porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc bibendum sollicitudin bibendum.</p>
+            </div>
+        </section>
+
+        <section id="carousel">
+          <div id="carouselExampleControls" class="carousel slide clear" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/segunda.png" class="d-block img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/primera.png" class="d-block img" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/tercera.png" class="d-block img" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </section>
+
+        <footer id="footer">
+          <p class="reserved">&copy 2022. Todos los derechos reservados. </p>
+        </footer>     
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </body>
+</html>
