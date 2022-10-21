@@ -1,0 +1,19 @@
+// Variables
+$color-letra: #4CAF50;
+
+// Anidacion
+.title {
+    padding: 8px;
+
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-letra;
+    }
+
+    h2 {
+        text-indent: 50px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+}
